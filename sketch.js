@@ -21,13 +21,13 @@ function draw() {
   
   
   if (car.collide(wall){
-    if(0.5*weight*speed*speed/22500 < 100){
+    if((0.5*weight*speed*speed)/22500 < 100){
       car.shapeColor = "green";
     }
-    if(0.5*weight*speed*speed/22500 >= 100 && 0.5*weight*speed*speed/22500 < 180){
+    if((0.5*weight*speed*speed)/22500 >= 100 && (0.5*weight*speed*speed)/22500 < 180){
       car.shapeColor = "yellow";
     }
-    if(0.5*weight*speed*speed/22500 >= 180){
+    if((0.5*weight*speed*speed)/22500 >= 180){
       car.shapeColor = "red";
     }
 
