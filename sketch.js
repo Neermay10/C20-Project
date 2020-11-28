@@ -20,7 +20,7 @@ function draw() {
   
   
   
-  if (car.x-wall.x < car.width/2+wall.width/2 && wall.x-car.x < wall.width/2+car.width/2){
+  if (car.collide(wall){
     if(0.5*weight*speed*speed/22500 < 100){
       car.shapeColor = "green";
     }
